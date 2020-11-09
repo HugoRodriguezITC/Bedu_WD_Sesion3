@@ -25,7 +25,7 @@ body {
     font-family: "Alegreya", serif;
     font-size: 40px;
     line-height: 48px;
-    color: 025157;
+    color: #025157;
 }
 
 .publicidad>p {
@@ -42,4 +42,32 @@ body {
 .publicidad>form p {
     color: #025157;
     margin-right: 18px;
+}
+
+.publicidad {
+    margin: 5px 5px 5px 5px;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+button,
+input {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button {
+    background-color: #025157;
 }
